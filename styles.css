@@ -1,0 +1,105 @@
+:root {
+  /* primary colors */
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  /* neutral colors */
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+}
+
+#title {
+  color: var(--Very-Dark-Magenta);
+  font-size: 2.25rem;
+  line-height: 40px;
+}
+
+.text-container p {
+  color: var(--Dark-Grayish-Magenta);
+  font-size: 16px;
+}
+
+#box-span{
+  background-color: var(--Light-Grayish-Magenta);
+  height: 3.125rem;
+  padding: 2.25rem 0;
+  color: var(--Very-Dark-Magenta);
+}
+
+#box-span img {
+  width: 16px;
+  height: 1rem;
+  margin-left: 8px;
+}
+
+.card {
+  background-color: var(--Very-Dark-Magenta);
+}
+
+.card .card-text,
+.card-title {
+  color: 
+  var(--White);
+}
+
+.card .card-subtitle {
+  color: var(--Soft-Pink);
+}
+
+.col-md-4{
+  width: 351px;
+}
+
+@media (min-width: 768px) {
+  .img {
+    display: none;
+  }
+  #box-span{
+    width: 400px;
+    /* padding-top: 1.5rem; */
+  }
+  .estrellas{
+    width: 150px;
+  }
+  #title{
+    font-size: 3.125rem;
+  }
+  .text-container p{
+    font-size: 18px;
+  }
+  .text-container{
+    width: 475px;
+  }
+  .box-1{
+    margin-top: 30px;
+  }
+  .box-2{
+    transform: translate(36px,0);
+  }
+  .box-3{
+    transform: translate(72px,0);
+  }
+  .card{
+    width:350px;
+  }
+  .card-2{
+    transform: translate(32px,20px);
+  }
+  .card-3{
+    transform: translate(62px,42px);
+  }
+}
+@media (max-width:767px) {
+  .img-desktop{
+    display: none;
+  }
+}
+
